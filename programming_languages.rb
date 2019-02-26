@@ -7,7 +7,7 @@ def reformat_languages(languages)
      new_hash[lang][:style]<< lang_style
     end
   end
-  new_hash[:javascript][:style] << :oo #since JS is both func & oo
+  new_hash[:javascript][:style] << :oo #since JS is both func & oo - it goes into the same style array 
   new_hash
 end
 
